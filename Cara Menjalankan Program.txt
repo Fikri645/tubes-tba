@@ -25,5 +25,7 @@ Cara Menjalankan Program:
 		"for a = 1 ; a >= 2 ; a -- fmt.Print(a)"
 		"for { a=a+b }"
 
+#PERHATIAN!! Semua simbol terminal tidak menggunakan spasi atau whitespace, jadi a=a+b tidak sama dengan a = a + b
+
 
 	
