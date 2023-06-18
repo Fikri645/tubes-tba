@@ -29,7 +29,7 @@ def lexical(sentence):
     transition_table[("q1", "o")] = "q2"
     transition_table[("q2", "r")] = "q29"
     transition_table[("q29", " ")] = "q30"
-    transition_table[("q30", "f")] = "q0"
+    transition_table[("q30", "f")] = "q1"
 
     transition_table[("q0", ";")] = "q29"
     transition_table[("q29", " ")] = "q30"
