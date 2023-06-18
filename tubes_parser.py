@@ -279,7 +279,7 @@ def parser(sentence):
 "for a = 1 ; a >= 2 ; a -- fmt.Print(a)"
 "for { a=a+b }"
 
-#PERHATIAN!! Semua simbol yang ada di terminal tidak menggunakan spasi atau whitespace, jadi a=a+b tidak sama dengan a = a + b
+#PERHATIAN!! Semua simbol terminal tidak menggunakan spasi atau whitespace, jadi a=a+b tidak sama dengan a = a + b
 
 print("====== Parser For Loop Golang ======")
 sentence = "for a = 0 ; a < 2 ; a ++ { fmt.Print(a) }"

@@ -180,7 +180,7 @@ def lexical(sentence):
 "=====================TERMINAL======================"
 "for", ";", "=", "++", "--", "{", "}", "==", "!=", ">", "<", ">=", "<=", 
 "a", "b", "c", "0", "1", "2", "true", "false", "fmt.Print(a)", "a=a+b"
-#PERHATIAN!! Semua simbol yang ada di terminal tidak menggunakan spasi atau whitespace, jadi a=a+b tidak sama dengan a = a + b
+#PERHATIAN!! Semua simbol terminal tidak menggunakan spasi atau whitespace, jadi a=a+b tidak sama dengan a = a + b
 "==================================================="
 
 sentence = "for ; = ++ -- { } == != > < >= <= a b c 0 1 2 true false fmt.Print(a) a=a+b"
