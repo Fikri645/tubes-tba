@@ -1,0 +1,29 @@
+Kelompok:
+1. Muhammad Fikri Wahidin (1301213505)
+2. Rashad Izza Andredi (1301213309)
+3. Rivan Fauzan (1301210554) 
+
+Cara Menjalankan Program:
+1. Install Python
+2. Install Text Editor (Kami memakai VSCode)
+3. Buka file tubes_lexer.py / tubes_parser.py dengan text editor atau IDLE
+4. Program bisa langsung dijalankan dengan klik run atau bisa juga dengan mengetikkan "py [namafile].py" pada cmd 
+   (pastikan cmd berada di direktori yang sama dengan filenya)
+5. Nilai input yang digunakan secara default adalah:
+	a. Untuk program lexer: "for ; = ++ -- { } == != > < >= <= a b c 0 1 2 true false fmt.Print(a) a=a+b"
+		Bisa juga digunakan inputan lain, dengan cara mengedit isi variabel "sentence" pada baris kode ke 186.
+		Variable Terminal: "for", ";", "=", "++", "--", "{", "}", "==", "!=", ">", "<", ">=", "<=", 
+					   "a", "b", "c", "0", "1", "2", "true", "false", "fmt.Print(a)", "a=a+b"
+	b. Untuk program parser: "for a = 0 ; a < 2 ; a ++ { fmt.Print(a) }"
+		Bisa juga digunakan inputan lain, dengan cara mengedit isi variabel "sentence" pada baris kode ke 285.
+		Contoh input yang diterima:
+		"for a = 0 ; a < 2 ; a ++ { fmt.Print(a) }"
+		"for a = 1 ; a < 2 ; a -- { a=a+b }"
+		"for a <= 2 { a=a+b }"
+		Contoh input yang ditolak:
+		"for a = 0 ; a < 2 ; a ++ { fmt.print(a) }"
+		"for a = 1 ; a >= 2 ; a -- fmt.Print(a)"
+		"for { a=a+b }"
+
+
+	
